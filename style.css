@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,800&display=swap");
+/* remove etra spaces */
+*,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  
+}
+/* main wrapper set display to flex and direction to downwards */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* width: 100vw; */
+}
+/* img style */
+.img-login {
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
+}
+/* label and h3 and inpit */
+.form-group {
+  margin-bottom: 20px;
+}
+/* for label and input */
+
+.form-control {
+  display: flex;
+  flex-direction: column;
+}
+/* input style */
+input {
+  border-radius: 0;
+  border: 1px solid #ccc;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #333;
+  background-color: #fff;
+  box-shadow: none;
+  -webkit-transition: border-color 0.15s ease-in-out,
+    box-shadow 0.15s ease-in-out;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+/* style input on focus */
+input:focus {
+  border-color: #66afe9;
+  outline: 0;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075),
+    0 0 8px rgba(102, 175, 233, 0.6);
+}
+/* style for select */
+select {
+  border-radius: 0;
+  border: 1px solid #ccc;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #333;
+  background-color: #fff;
+  box-shadow: none;
+  -webkit-transition: border-color 0.15s ease-in-out,
+    box-shadow 0.15s ease-in-out;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+/* style for label */
+label {
+  font-size: 16px;
+  font-weight: 400;
+  color: #333;
+
+  margin-bottom: 10px;
+}
+/* button style */
+button {
+  border-radius: 0;
+  border: 1px solid #ccc;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: 400;
+  color: white;
+  background-color: #66afe9;
+  box-shadow: none;
+  -webkit-transition: border-color 0.15s ease-in-out,
+    box-shadow 0.15s ease-in-out;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+/* style button on hover */
+button:hover {
+  border-color: white;
+  outline: 0;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075),
+    0 0 8px rgba(102, 175, 233, 0.6);
+}
+/* table style */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+}
+nav{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  background-color: #66afe9;
+  color: white;
+  font-size: 20px;
+  font-weight: 400;
+  width: 100vw;
+}
+nav ul{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav ul li{
+  list-style: none;
+  margin-right: 20px;
+
+}
+nav ul li a{
+  color: white;
+  text-decoration: none;
+  transition: all 0.5s ease-in-out;
+}
+nav ul li a:hover{
+  text-decoration: wavy;
+  color: black;
+
+}
+.container h2{
+  font-size: 30px;
+  font-weight: 400;
+  color: #333;
+  margin-bottom: 20px;
+}
+.container h3{
+  font-size: 20px;
+  font-weight: 400;
+  color: #333;
+  margin-bottom: 20px;
+}
